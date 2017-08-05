@@ -44,4 +44,9 @@ export const config =
         url: '/twoBtns',
         component: 'twoBtns'
       })
+      .state({
+        name: 'clicker.multipleStates',
+        url: '/multipleStates',
+        component: 'multipleStates'
+      })
   }

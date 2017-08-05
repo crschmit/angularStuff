@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="page-header">
+    <h3>Multiple States Clicker</h3>
+    <p>A multiple-states button clicker.</p>
+  </div>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-xs-8 list-group">
+        <a class="btn btn-primary btn-block" ng-click="multipleStates.incScore()">A button for clicking</a>
+        <a class="btn btn-primary btn-block" ng-click="multipleStates.incScore()">Another clicking button</a>
+      </div>
+      <div class="col-xs-4 panel-group">
+        <div class="panel panel-default">
+          <div class="panel-heading">Score</div>
+          <div class="panel-body"><span id="multipleStatesScore">{{multipleStates.score}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
