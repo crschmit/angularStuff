@@ -12,8 +12,8 @@ export default ng
   .module('clicker', [
     ngLocalStorage,
     ngUiRouter,
-    LibModule,
-    SrcModule
+    SrcModule,
+    LibModule
   ])
   .component('clicker', Clicker)
   .config(config)

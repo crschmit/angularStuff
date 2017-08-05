@@ -3,7 +3,7 @@ import twoBtns from 'TwoBtns/twoBtns.module'
 import multipleStates from 'MultipleStates/multipleStates.module'
 
 export default ng
-  .module('my.app.lib', [
+  .module('clicker.lib', [
     oneBtn,
     twoBtns,
     multipleStates
