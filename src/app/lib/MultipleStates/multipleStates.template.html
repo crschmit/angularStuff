@@ -12,9 +12,11 @@
       <div class="col-xs-4 panel-group">
         <div class="panel panel-default">
           <div class="panel-heading">Score</div>
-          <div class="panel-body"><span id="multipleStatesScore">{{multipleStates.score}}</div>
+          <!-- <div class="panel-body"><span id="multipleStatesScore">{{multipleStates.score}}</div> -->
+          <div class="panel-body"><span id="multipleStatesScore">{{multipleStates.getScore()}}</div>
         </div>
-        <simple-state-display name="'Score'" value="multipleStates.score"></simple-state-display>
+        <!-- <simple-state-display name="'Score'" value="multipleStates.score"></simple-state-display> -->
+        <simple-state-display name="'Score'" value="multipleStates.getScore()"></simple-state-display>
       </div>
     </div>
   </div>
